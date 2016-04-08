@@ -1,3 +1,9 @@
+/*
+Alteracao Raphael 1
+Alteracao Raphael 2
+Alteracao Raphael 3
+*/
+
 #INCLUDE "Totvs.ch"      
 #INCLUDE "TOPConn.ch"                                                                                    
 
@@ -13,18 +19,18 @@ Method New() class oCalcX
 Return Self
 
 /*
-ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
-±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
-±±ÉÍÍÍÍÍÍÍÍÍÍÑÍÍÍÍÍÍÍÍÍÍËÍÍÍÍÍÍÍÑÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍËÍÍÍÍÍÍÑÍÍÍÍÍÍÍÍÍÍÍÍÍ»±±
-±±ºPrograma  ³ CalcZA7  ºAutor  ³Itup                º Data ³  15/12/15   º±±
-±±ÌÍÍÍÍÍÍÍÍÍÍØÍÍÍÍÍÍÍÍÍÍÊÍÍÍÍÍÍÍÏÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÊÍÍÍÍÍÍÏÍÍÍÍÍÍÍÍÍÍÍÍÍ¹±±
-±±ºDesc.     ³ Neste fonte contem as rotinas: fCalcZA7V e fCalcZA7C       º±±
-±±º          ³                                                            º±±
-±±ÌÍÍÍÍÍÍÍÍÍÍØÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¹±±
-±±ºUso       ³ Itup / Gefco                                               º±±
-±±ÈÍÍÍÍÍÍÍÍÍÍÏÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼±±
-±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
-ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
+ÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœ
+Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±
+Â±Â±Ã‰ÃÃÃÃÃÃÃÃÃÃÃ‘ÃÃÃÃÃÃÃÃÃÃÃ‹ÃÃÃÃÃÃÃÃ‘ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃ‹ÃÃÃÃÃÃÃ‘ÃÃÃÃÃÃÃÃÃÃÃÃÃÂ»Â±Â±
+Â±Â±ÂºPrograma  Â³ CalcZA7  ÂºAutor  Â³Itup                Âº Data Â³  15/12/15   ÂºÂ±Â±
+Â±Â±ÃŒÃÃÃÃÃÃÃÃÃÃÃ˜ÃÃÃÃÃÃÃÃÃÃÃŠÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃŠÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÂ¹Â±Â±
+Â±Â±ÂºDesc.     Â³ Neste fonte contem as rotinas: fCalcZA7V e fCalcZA7C       ÂºÂ±Â±
+Â±Â±Âº          Â³                                                            ÂºÂ±Â±
+Â±Â±ÃŒÃÃÃÃÃÃÃÃÃÃÃ˜ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÂ¹Â±Â±
+Â±Â±ÂºUso       Â³ Itup / Gefco                                               ÂºÂ±Â±
+Â±Â±ÃˆÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÂ¼Â±Â±
+Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±
+ÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸ
 */
 
 User Function CalcZA7V()
@@ -92,61 +98,61 @@ Local _aTemp
 
 /*
 	if Len(oDlgCon:aCols) ==0 
-		Alert("Na aba conjunto transportador não esta preenchida.")
+		Alert("Na aba conjunto transportador nÃ£o esta preenchida.")
 		Return
 	Else
 		cTpTran := oDlgCon:aCols[1][Ascan(oDlgCon:aHeader,{|x|Alltrim(x[2])=="ZAE_TRANSP"})]
 		if Empty(Alltrim(cTpTran))
-			Alert("Na aba conjunto transportador não esta preenchida.")
+			Alert("Na aba conjunto transportador nÃ£o esta preenchida.")
 			Return                                                                         
 		Endif	 
 	Endif
 */
 
 	if Empty(Alltrim(cTpTran))
-		Alert("O Campo Transportador não esta preenchida.")
+		Alert("O Campo Transportador nÃ£o esta preenchida.")
 		Return(.f.)
 	Endif
 
 /*
 	if Empty(Alltrim(cTES))
-		Alert("O Campo Tipo Saida não esta preenchida.")
+		Alert("O Campo Tipo Saida nÃ£o esta preenchida.")
 		Return(.f.)
 	Endif
 */
 
 	if Empty(Alltrim(cCONPAG))
-		Alert("O campo Condições de Pagamento não esta preenchida.")
+		Alert("O campo CondiÃ§Ãµes de Pagamento nÃ£o esta preenchida.")
 		Return(.f.)
 	Endif
 
 	if Empty(Alltrim(cTPFRET))
-		Alert("O campo Tipo de Frete não esta preenchida.")
+		Alert("O campo Tipo de Frete nÃ£o esta preenchida.")
 		Return(.f.)
 	Endif
 
 	if Empty(Alltrim(cCCGEFC))
-		Alert("O campo Centro de Custo GEFCO  não esta preenchida.")
+		Alert("O campo Centro de Custo GEFCO  nÃ£o esta preenchida.")
 		Return(.f.)
 	Endif
 
 	if Empty(Alltrim(cCCCLIE)) .and. SuperGetMv("IT_VALCLI",,"90136500") == cCodCli+cLojCli
-		Alert("O campo Centro de Custo Cliente  não esta preenchida.")
+		Alert("O campo Centro de Custo Cliente  nÃ£o esta preenchida.")
 		Return(.f.)
 	Endif
 
 	if Empty(Alltrim(cOI)) .and. SuperGetMv("IT_VALCLI",,"90136500") == cCodCli+cLojCli
-		Alert("O campo Ordem Interna não esta preenchida.")
+		Alert("O campo Ordem Interna nÃ£o esta preenchida.")
 		Return(.F.)
 	Endif
 
 	if Empty(Alltrim(cCONTA)) .and. SuperGetMv("IT_VALCLI",,"90136500") == cCodCli+cLojCli
-		Alert("O campo Conta PSA não esta preenchida.")
+		Alert("O campo Conta PSA nÃ£o esta preenchida.")
 		Return(.F.)
 	Endif
 
 	if Empty(Alltrim(cTIPDES))
-		Alert("O campo Tipo Despesa GEFCO não esta preenchida.")
+		Alert("O campo Tipo Despesa GEFCO nÃ£o esta preenchida.")
 		Return(.F.)
 	Endif
 
@@ -402,7 +408,7 @@ Local _aTemp
 		Next
 		// No caso de nao haver um cliente informado avisar para o usuario
 		If empty(_cCliTmp)
-			Alert("Falta o preenchimento da pasta Coletas - Identificação do Cliente.")
+			Alert("Falta o preenchimento da pasta Coletas - IdentificaÃ§Ã£o do Cliente.")
 			Return .F.
 		EndIF
 		_nRat := 1
@@ -527,7 +533,7 @@ Local _aTemp
 		Next
 		// No caso de nao haver um cliente informado avisar para o usuario
 		If empty(_cCliTmp) .or. empty(_cCliDes)
-			Alert("Falta o preenchimento da pasta Coletas - Identificação do Cliente.")
+			Alert("Falta o preenchimento da pasta Coletas - IdentificaÃ§Ã£o do Cliente.")
 			Return .F.
 		EndIF
 		_nRat := 1
@@ -698,7 +704,7 @@ Local _aTemp
 											Exit
 										EndIF
 									Else
-										_nVlrK := _aFaixa[_nZ][04] // VRFIXO e dentro de uma faixa que não é a ultima
+										_nVlrK := _aFaixa[_nZ][04] // VRFIXO e dentro de uma faixa que nÃ£o Ã© a ultima
 										_lSai := .T.
 										Exit
 									EndIf
@@ -888,7 +894,7 @@ Local _aTemp
 			EndIF
 		Next
 
-		//------------ Considerar Cálculo Emergencial
+		//------------ Considerar CÃ¡lculo Emergencial
 		nPEMERG := 0
 		nPERFER := 0
 		// Posicionar na tabela de vendas
@@ -898,13 +904,13 @@ Local _aTemp
 			nPERFER := ZT0->ZT0_PERFER
 		endif
 
-		if gdFieldGet("ZA6_FERIAV", oDlgTra:nAt, .F., oDlgTra:aHeader, oDlgTra:aCols ) != "S"	// não vai tratar o % Feriado
+		if gdFieldGet("ZA6_FERIAV", oDlgTra:nAt, .F., oDlgTra:aHeader, oDlgTra:aCols ) != "S"	// nÃ£o vai tratar o % Feriado
 			nPERFER := 0
 		endif
 
 		For _nX := 1 to Len(oDlgCar:aCols)
 			if ! gdDeleted( _nX, oDlgCar:aHeader, oDlgCar:aCols)
-				if gdFieldGet("ZA7_EMERG2", _nX, .F., oDlgCar:aHeader, oDlgCar:aCols ) == "S" .and. nPEMERG > 0	// se for SIM, adicionar % de Emergência
+				if gdFieldGet("ZA7_EMERG2", _nX, .F., oDlgCar:aHeader, oDlgCar:aCols ) == "S" .and. nPEMERG > 0	// se for SIM, adicionar % de EmergÃªncia
 					nValor := gdFieldGet("ZA7_VALOR", _nX, .F., oDlgCar:aHeader, oDlgCar:aCols ) 
 					nValor += nValor * nPEMERG / 100
 			    	gdFieldPut("ZA7_VALOR", nValor, _nX, oDlgCar:aHeader, oDlgCar:aCols)
@@ -925,7 +931,7 @@ Local _aTemp
 			// Tratamento especial para rateio por KM ou PESO
 			// ----------------------------------------------------------------------------------------------------------------
 
-			// Detalhamento do Retorno da função KMMOD2
+			// Detalhamento do Retorno da funÃ§Ã£o KMMOD2
 			// cVenda , cCompra , cRatVen , cRatCom , nPerV , nPerC
 			// cVenda  == "S" representa que havera rateio para o calculo da venda
 			// cCompra == "S" representa que havera rateio para o calculo da compra
@@ -950,7 +956,7 @@ Local _aTemp
 				EndIF
 			Next
 			If _lErro
-				MsgStop("As sequencias da coleta nao foram preenchidas.","Atenção!")
+				MsgStop("As sequencias da coleta nao foram preenchidas.","AtenÃ§Ã£o!")
 				Return _Ret
 			EndIf
 			// ----------------------------------------------------------------------------------------------------------------
@@ -991,7 +997,7 @@ Local _aTemp
 					EndIf                         
 					If _aFaixa[_nZ][01] <= _nTotKm .and. _aFaixa[_nZ][2] >= _nTotKm
 						If _aFaixa[_nZ][04] > 0
-							_nTotVlr  := _aFaixa[_nZ][04] // VRFIXO e dentro de uma faixa que não é a ultima
+							_nTotVlr  := _aFaixa[_nZ][04] // VRFIXO e dentro de uma faixa que nÃ£o Ã© a ultima
 						Else
 							_nTotVlr  := _aFaixa[_nZ][03] * _nTotKm
 						EndIF
@@ -1102,7 +1108,7 @@ Local _aTemp
 						EndIF
 					Next
 					If !_lTemProximo .and. _aTemp[_nX][2] == "P"           
-						// Se nao tem proximo e for peca nao ha rateio, porem se for Retorno há o rateio por pecas por cliente diferente
+						// Se nao tem proximo e for peca nao ha rateio, porem se for Retorno hÃ¡ o rateio por pecas por cliente diferente
 						_aRet := U_KMMOD2("1", _nX, "2")
 						If _aRet[3] == "N" // rateio por km
 							_aTemp[_nX][08] := (_aTemp[_nX][07]/_nTotKM) *  _nTotVlr 
@@ -1167,7 +1173,7 @@ Local _aTemp
 					If _aTemp[_nX][02] == "R"
 						_nTemp1 := (_nTemp * _aTemp[_nX][10])/100 // % da tabela de venda para retorno
 						If _aTemp[_nX][10] == 0
-							MsgStop("O calculo foi executado com um erro, pois o % de retorno da tabela de vendas esta zerado.","Atenção!")
+							MsgStop("O calculo foi executado com um erro, pois o % de retorno da tabela de vendas esta zerado.","AtenÃ§Ã£o!")
 						EndIf           
 						_nTemp5 := _aTemp[_nX][10] // armazenar o % aplicado para realizar a diferenca na peca
 						// Atualizar a ZT7                 
@@ -1195,7 +1201,7 @@ Local _aTemp
 								Exit
 							EndIF
 						Next     
-					Else // é uma peca      
+					Else // Ã© uma peca      
 						// ---------------------------------------------------------------------------------------------------------
 						// procurar pelo retorno
 						_nTemp5 := 0
@@ -1711,61 +1717,61 @@ EndIF
 
 /*
 	if Len(oDlgCon:aCols) ==0 
-		Alert("Na aba conjunto transportador não esta preenchida.")
+		Alert("Na aba conjunto transportador nÃ£o esta preenchida.")
 		Return
 	Else
 		cTpTran := oDlgCon:aCols[1][Ascan(oDlgCon:aHeader,{|x|Alltrim(x[2])=="ZAE_TRANSP"})]
 		if Empty(Alltrim(cTpTran))
-			Alert("Na aba conjunto transportador não esta preenchida.")
+			Alert("Na aba conjunto transportador nÃ£o esta preenchida.")
 			Return
 		Endif	 
 	Endif
 */
 
 	if Empty(Alltrim(cTpTran))
-		Alert("O Campo Transportador não esta preenchida.")
+		Alert("O Campo Transportador nÃ£o esta preenchida.")
 		Return(.f.)
 	Endif
 
 /*
 	if Empty(Alltrim(cTES))
-		Alert("O Campo Tipo Saida não esta preenchida.")
+		Alert("O Campo Tipo Saida nÃ£o esta preenchida.")
 		Return(.f.)
 	Endif
 */            
 
 	if Empty(Alltrim(cCONPAG))
-		Alert("O campo Condições de Pagamento não esta preenchida.")
+		Alert("O campo CondiÃ§Ãµes de Pagamento nÃ£o esta preenchida.")
 		Return(.f.)
 	Endif
 	            
 	if Empty(Alltrim(cTPFRET))
-		Alert("O campo Tipo de Frete não esta preenchida.")
+		Alert("O campo Tipo de Frete nÃ£o esta preenchida.")
 		Return(.f.)
 	Endif
 
 	if Empty(Alltrim(cCCGEFC))
-		Alert("O campo Centro de Custo GEFCO  não esta preenchida.")
+		Alert("O campo Centro de Custo GEFCO  nÃ£o esta preenchida.")
 		Return(.f.)
 	Endif
             
 	if Empty(Alltrim(cCCCLIE)) .and. SuperGetMv("IT_VALCLI",,"90136500") == cCodCli+cLojCli
-		Alert("O campo Centro de Custo Cliente  não esta preenchida.")
+		Alert("O campo Centro de Custo Cliente  nÃ£o esta preenchida.")
 		Return(.f.)
 	Endif
 
 	if Empty(Alltrim(cOI)) .and. SuperGetMv("IT_VALCLI",,"90136500") == cCodCli+cLojCli
-		Alert("O campo Ordem Interna não esta preenchida.")
+		Alert("O campo Ordem Interna nÃ£o esta preenchida.")
 		Return(.f.)
 	Endif
 
 	if Empty(Alltrim(cCONTA)) .and. SuperGetMv("IT_VALCLI",,"90136500") == cCodCli+cLojCli
-		Alert("O campo Conta PSA não esta preenchida.")
+		Alert("O campo Conta PSA nÃ£o esta preenchida.")
 		Return(.f.)
 	Endif
 
 	if Empty(Alltrim(cTIPDES))
-		Alert("O campo Tipo Despesa GEFCO não esta preenchida.")
+		Alert("O campo Tipo Despesa GEFCO nÃ£o esta preenchida.")
 		Return(.f.)
 	Endif
             
@@ -1793,7 +1799,7 @@ EndIF
 		dbSkip()
 	EndDo
 	If !_lAchou
-		MsgStop("Tabela de Compras não identificada.","Atenção!")
+		MsgStop("Tabela de Compras nÃ£o identificada.","AtenÃ§Ã£o!")
 		Return .F.
 	EndIF
     
@@ -2135,8 +2141,8 @@ EndIF
 				cITTabC := TZA2->ZT1_ITEMTB
 				oDlgTra:aCols[oDlgTra:nAt][Ascan(oDlgTra:aHeader,{|x|AllTrim(x[2])=="ZA6_ITTABC"})] := cITTabC
 			else
-	//			Aviso("A T E N Ç Ã O","O valor informado não consta na Tabela de Custo de Frete "+Trim(Str(nX))+" da aba Coletas" ,{"Ok"}, 2)
-				//_cMsgAlert += "O valor informado não consta na Tabela de Compra do Frete "+Trim(Str(nX))+" da aba Coletas" + CRLF
+	//			Aviso("A T E N Ã‡ Ãƒ O","O valor informado nÃ£o consta na Tabela de Custo de Frete "+Trim(Str(nX))+" da aba Coletas" ,{"Ok"}, 2)
+				//_cMsgAlert += "O valor informado nÃ£o consta na Tabela de Compra do Frete "+Trim(Str(nX))+" da aba Coletas" + CRLF
 				Loop
 			endif
 			TZA2->(dbCloseArea())
@@ -2172,8 +2178,8 @@ EndIF
 					nValor := TZTB->ZTB_CUSTO
 					oDlgCar:aCols[nX][Ascan(oDlgCar:aHeader,{|x|AllTrim(x[2])=="ZA7_CUSTO"})]	:= nValor
 				else
-	//				Aviso("A T E N Ç Ã O","O valor adicional informado não consta na Tabela de Compra do Frete "+Trim(Str(nX))+" da aba Coletas" ,{"Ok"}, 2)
-					//_cMsgAlert += "O valor adicional informado não consta na Tabela de Compra do Frete "+Trim(Str(nX))+" da aba Coletas" + CRLF
+	//				Aviso("A T E N Ã‡ Ãƒ O","O valor adicional informado nÃ£o consta na Tabela de Compra do Frete "+Trim(Str(nX))+" da aba Coletas" ,{"Ok"}, 2)
+					//_cMsgAlert += "O valor adicional informado nÃ£o consta na Tabela de Compra do Frete "+Trim(Str(nX))+" da aba Coletas" + CRLF
 					oDlgCar:aCols[nX][Ascan(oDlgCar:aHeader,{|x|AllTrim(x[2])=="ZA7_CUSTO"})]	:= 0
 					Loop
 				Endif
@@ -2236,8 +2242,8 @@ EndIF
 					nValor := TZTB->ZTB_CUSTO +(TZTB->ZTB_CUSTO*nPEMERG/100)
 					oDlgCar:aCols[nX][Ascan(oDlgCar:aHeader,{|x|AllTrim(x[2])=="ZA7_CUSTO"})]	:= nValor
 				Else
-	//				Aviso("A T E N Ç Ã O","O valor adicional informado não consta na Tabela de Compra do Frete "+Trim(Str(nX))+" da aba Coletas" ,{"Ok"}, 2)
-	//				_cMsgAlert += "O valor adicional informado não consta na Tabela de Compra do Frete "+Trim(Str(nX))+" da aba Coletas" + CRLF
+	//				Aviso("A T E N Ã‡ Ãƒ O","O valor adicional informado nÃ£o consta na Tabela de Compra do Frete "+Trim(Str(nX))+" da aba Coletas" ,{"Ok"}, 2)
+	//				_cMsgAlert += "O valor adicional informado nÃ£o consta na Tabela de Compra do Frete "+Trim(Str(nX))+" da aba Coletas" + CRLF
 					oDlgCar:aCols[nX][Ascan(oDlgCar:aHeader,{|x|AllTrim(x[2])=="ZA7_CUSTO"})]	:= 0
 					Loop
 				Endif
@@ -2325,7 +2331,7 @@ EndIF
 											Exit
 										EndIF
 									Else
-										_nVlrK := _aFaixa[_nZ][04] // VRFIXO e dentro de uma faixa que não é a ultima
+										_nVlrK := _aFaixa[_nZ][04] // VRFIXO e dentro de uma faixa que nÃ£o Ã© a ultima
 										_lSai := .T.
 										Exit
 									EndIf
@@ -2487,7 +2493,7 @@ EndIF
 		Next
 
 
-		//------------ Considerar Cálculo Emergencial
+		//------------ Considerar CÃ¡lculo Emergencial
 		// Posicionar na tabela de compras
 		cTabX	  := oDlgTra:aCols[oDlgTra:nAt][Ascan(oDlgTra:aHeader,{|x|AllTrim(x[2])=="ZA6_TABCOM"})] 
 		cVerX	  := oDlgTra:aCols[oDlgTra:nAt][Ascan(oDlgTra:aHeader,{|x|AllTrim(x[2])=="ZA6_VERCOM"})] 
@@ -2507,13 +2513,13 @@ EndIF
 			ZT1->( dbSkip() )
 		EndDo
 		
-		if gdFieldGet("ZA6_FERIAC", oDlgTra:nAt, .F., oDlgTra:aHeader, oDlgTra:aCols ) != "S"	// não vai tratar o % Feriado
+		if gdFieldGet("ZA6_FERIAC", oDlgTra:nAt, .F., oDlgTra:aHeader, oDlgTra:aCols ) != "S"	// nÃ£o vai tratar o % Feriado
 			nPERFER := 0
 		endif
 
 		For _nX := 1 to Len(oDlgCar:aCols)
 			if ! gdDeleted( _nX, oDlgCar:aHeader, oDlgCar:aCols)
-				if gdFieldGet("ZA7_EMERGE", _nX, .F., oDlgCar:aHeader, oDlgCar:aCols ) == "S" .and. nPEMERG > 0	// se for SIM, adicionar % de Emergência
+				if gdFieldGet("ZA7_EMERGE", _nX, .F., oDlgCar:aHeader, oDlgCar:aCols ) == "S" .and. nPEMERG > 0	// se for SIM, adicionar % de EmergÃªncia
 					nValor := gdFieldGet("ZA7_CUSTO", _nX, .F., oDlgCar:aHeader, oDlgCar:aCols ) 
 					nValor += nValor * nPEMERG / 100
 			    	gdFieldPut("ZA7_CUSTO", nValor, _nX, oDlgCar:aHeader, oDlgCar:aCols)
@@ -2533,7 +2539,7 @@ EndIF
 			// Tratamento especial para rateio por KM ou PESO
 			// ----------------------------------------------------------------------------------------------------------------
 
-			// Detalhamento do Retorno da função KMMOD2
+			// Detalhamento do Retorno da funÃ§Ã£o KMMOD2
 			// cVenda , cCompra , cRatVen , cRatCom , nPerV , nPerC
 			// cVenda  == "S" representa que havera rateio para o calculo da venda
 			// cCompra == "S" representa que havera rateio para o calculo da compra
@@ -2558,7 +2564,7 @@ EndIF
 				EndIF
 			Next
 			If _lErro
-				MsgStop("As sequencias da coleta nao foram preenchidas.","Atenção!")
+				MsgStop("As sequencias da coleta nao foram preenchidas.","AtenÃ§Ã£o!")
 				Return _Ret
 			EndIf
 			// ----------------------------------------------------------------------------------------------------------------
@@ -2597,7 +2603,7 @@ EndIF
 					EndIf                         
 					If _aFaixa[_nZ][01] <= _nTotKm .and. _aFaixa[_nZ][2] >= _nTotKm
 						If _aFaixa[_nZ][04] > 0
-							_nTotVlr  := _aFaixa[_nZ][04] // VRFIXO e dentro de uma faixa que não é a ultima
+							_nTotVlr  := _aFaixa[_nZ][04] // VRFIXO e dentro de uma faixa que nÃ£o Ã© a ultima
 						Else
 							_nTotVlr  := _aFaixa[_nZ][03] * _nTotKm
 						EndIF
@@ -2607,8 +2613,8 @@ EndIF
 			EndIF                     
 			
 			// Encontrar quantos clientes diferentes existem na ZA7 e destes quais possuem pecas.
-			// Quando ocorre uma coleta que existe apenas o retorno (não há uma peça), a rotina precisa identificar todas os clientes
-			// diferentes da ZA7 que possuem pecas para realizar o rateio. Uma peça por cliente.
+			// Quando ocorre uma coleta que existe apenas o retorno (nÃ£o hÃ¡ uma peÃ§a), a rotina precisa identificar todas os clientes
+			// diferentes da ZA7 que possuem pecas para realizar o rateio. Uma peÃ§a por cliente.
 			_aPecas := {}
 			For _nX:=1 to Len(oDlgCar:aCols)    
 				If !oDlgCar:aCols[_nX][Len(oDlgCar:aHeader)+1]
@@ -2690,7 +2696,7 @@ EndIF
 					EndIF
 				Next
 				If !_lTemProximo .and. _aTemp[_nX][2] == "P"           
-					// Se nao tem proximo e for peca nao ha rateio, porem se for Retorno há o rateio por pecas por cliente diferente
+					// Se nao tem proximo e for peca nao ha rateio, porem se for Retorno hÃ¡ o rateio por pecas por cliente diferente
 					_aRet := U_KMMOD2("2", _nX, "2")
 					If _aRet[3] == "N" // rateio por km
 						_aTemp[_nX][08] := (_aTemp[_nX][07]/_nTotKM) *  _nTotVlr 
@@ -2709,7 +2715,7 @@ EndIF
 				EndIF
 				
 				If !_lTemProximo .and. _aTemp[_nX][2] == "R"           
-					// Se nao tem proximo e for peca nao ha rateio, porem se for Retorno há o rateio por pecas por cliente diferente
+					// Se nao tem proximo e for peca nao ha rateio, porem se for Retorno hÃ¡ o rateio por pecas por cliente diferente
 					_aRet := U_KMMOD2("2", _nX, "2")
 					If _aRet[3] == "N" // rateio por km              
 						If len(_aPecas) > 0
@@ -2795,7 +2801,7 @@ EndIF
 				If _aTemp[_nX][02] == "R"
 					_nTemp1 := (_nTemp * _aTemp[_nX][10])/100 // % da tabela de venda para retorno
 					If _aTemp[_nX][10] == 0
-						MsgStop("O calculo foi executado com um erro, pois o % de retorno da tabela de vendas esta zerado.","Atenção!")
+						MsgStop("O calculo foi executado com um erro, pois o % de retorno da tabela de vendas esta zerado.","AtenÃ§Ã£o!")
 					EndIf           
 					_nTemp5 := _aTemp[_nX][10] // armazenar o % aplicado para realizar a diferenca na peca
 					// Atualizar a ZT7                 
@@ -2841,7 +2847,7 @@ EndIF
 							Exit
 						EndIF
 					Next     
-				Else // é uma peca      
+				Else // Ã© uma peca      
 					// ---------------------------------------------------------------------------------------------------------
 					// procurar pelo retorno
 					_nTemp5 := 0
@@ -3120,8 +3126,8 @@ EndIF
 				cITTabC := TZA2->ZT1_ITEMTB
 				oDlgTra:aCols[oDlgTra:nAt][Ascan(oDlgTra:aHeader,{|x|AllTrim(x[2])=="ZA6_ITTABC"})] := cITTabC
 			else
-	//			Aviso("A T E N Ç Ã O","O valor informado não consta na Tabela de Custo de Frete "+Trim(Str(nX))+" da aba Coletas" ,{"Ok"}, 2)
-				//_cMsgAlert += "O valor informado não consta na Tabela de Compra do Frete "+Trim(Str(nX))+" da aba Coletas" + CRLF
+	//			Aviso("A T E N Ã‡ Ãƒ O","O valor informado nÃ£o consta na Tabela de Custo de Frete "+Trim(Str(nX))+" da aba Coletas" ,{"Ok"}, 2)
+				//_cMsgAlert += "O valor informado nÃ£o consta na Tabela de Compra do Frete "+Trim(Str(nX))+" da aba Coletas" + CRLF
 				Loop
 			endif
 			TZA2->(dbCloseArea())
@@ -3157,8 +3163,8 @@ EndIF
 					nValor := TZTB->ZTB_CUSTO
 					oDlgCar:aCols[nX][Ascan(oDlgCar:aHeader,{|x|AllTrim(x[2])=="ZA7_CUSTO"})]	:= nValor
 				else
-	//				Aviso("A T E N Ç Ã O","O valor adicional informado não consta na Tabela de Compra do Frete "+Trim(Str(nX))+" da aba Coletas" ,{"Ok"}, 2)
-					//_cMsgAlert += "O valor adicional informado não consta na Tabela de Compra do Frete "+Trim(Str(nX))+" da aba Coletas" + CRLF
+	//				Aviso("A T E N Ã‡ Ãƒ O","O valor adicional informado nÃ£o consta na Tabela de Compra do Frete "+Trim(Str(nX))+" da aba Coletas" ,{"Ok"}, 2)
+					//_cMsgAlert += "O valor adicional informado nÃ£o consta na Tabela de Compra do Frete "+Trim(Str(nX))+" da aba Coletas" + CRLF
 					oDlgCar:aCols[nX][Ascan(oDlgCar:aHeader,{|x|AllTrim(x[2])=="ZA7_CUSTO"})]	:= 0
 					Loop
 				Endif
@@ -3221,8 +3227,8 @@ EndIF
 					nValor := TZTB->ZTB_CUSTO +(TZTB->ZTB_CUSTO*nPEMERG/100)
 					oDlgCar:aCols[nX][Ascan(oDlgCar:aHeader,{|x|AllTrim(x[2])=="ZA7_CUSTO"})]	:= nValor
 				Else
-	//				Aviso("A T E N Ç Ã O","O valor adicional informado não consta na Tabela de Compra do Frete "+Trim(Str(nX))+" da aba Coletas" ,{"Ok"}, 2)
-	//				_cMsgAlert += "O valor adicional informado não consta na Tabela de Compra do Frete "+Trim(Str(nX))+" da aba Coletas" + CRLF
+	//				Aviso("A T E N Ã‡ Ãƒ O","O valor adicional informado nÃ£o consta na Tabela de Compra do Frete "+Trim(Str(nX))+" da aba Coletas" ,{"Ok"}, 2)
+	//				_cMsgAlert += "O valor adicional informado nÃ£o consta na Tabela de Compra do Frete "+Trim(Str(nX))+" da aba Coletas" + CRLF
 					oDlgCar:aCols[nX][Ascan(oDlgCar:aHeader,{|x|AllTrim(x[2])=="ZA7_CUSTO"})]	:= 0
 					Loop
 				Endif
@@ -3233,7 +3239,7 @@ EndIF
 		Next nX
 	
 	if ! isInCallStack("RECALCVI") .and.  ! Empty( _cMsgAlert ) 	// Cristiam Rossi em 28/01/2016
-			Aviso("A T E N Ç Ã O", _cMsgAlert, {"Ok"}, 3)		
+			Aviso("A T E N Ã‡ Ãƒ O", _cMsgAlert, {"Ok"}, 3)		
 		endif
 	
 	  //	Next nX
@@ -3268,19 +3274,19 @@ Return(_Ret)
 
 
 /*
-ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
-±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
-±±ÉÍÍÍÍÍÍÍÍÍÍÑÍÍÍÍÍÍÍÍÍÍËÍÍÍÍÍÍÍÑÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍËÍÍÍÍÍÍÑÍÍÍÍÍÍÍÍÍÍÍÍÍ»±±
-±±ºPrograma  ³KMMOD2    ºAutor  ³Frank Zwarg Fuga    º Data ³  02/11/16   º±±
-±±ÌÍÍÍÍÍÍÍÍÍÍØÍÍÍÍÍÍÍÍÍÍÊÍÍÍÍÍÍÍÏÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÊÍÍÍÍÍÍÏÍÍÍÍÍÍÍÍÍÍÍÍÍ¹±±
-±±ºDesc.     ³Encontra o valor do KM para o calculo tipo 4                º±±
-±±º          ³_cMod == 1 (Venda), _cMod == 2 (Compra)                     º±±
-±±º          ³_cTipRet == 1 retorna o valor, 2 retorna o tipo de processo º±±
-±±ÌÍÍÍÍÍÍÍÍÍÍØÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¹±±
-±±ºUso       ³ AP                                                         º±±
-±±ÈÍÍÍÍÍÍÍÍÍÍÏÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼±±
-±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
-ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
+ÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœ
+Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±
+Â±Â±Ã‰ÃÃÃÃÃÃÃÃÃÃÃ‘ÃÃÃÃÃÃÃÃÃÃÃ‹ÃÃÃÃÃÃÃÃ‘ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃ‹ÃÃÃÃÃÃÃ‘ÃÃÃÃÃÃÃÃÃÃÃÃÃÂ»Â±Â±
+Â±Â±ÂºPrograma  Â³KMMOD2    ÂºAutor  Â³Frank Zwarg Fuga    Âº Data Â³  02/11/16   ÂºÂ±Â±
+Â±Â±ÃŒÃÃÃÃÃÃÃÃÃÃÃ˜ÃÃÃÃÃÃÃÃÃÃÃŠÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃŠÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÂ¹Â±Â±
+Â±Â±ÂºDesc.     Â³Encontra o valor do KM para o calculo tipo 4                ÂºÂ±Â±
+Â±Â±Âº          Â³_cMod == 1 (Venda), _cMod == 2 (Compra)                     ÂºÂ±Â±
+Â±Â±Âº          Â³_cTipRet == 1 retorna o valor, 2 retorna o tipo de processo ÂºÂ±Â±
+Â±Â±ÃŒÃÃÃÃÃÃÃÃÃÃÃ˜ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÂ¹Â±Â±
+Â±Â±ÂºUso       Â³ AP                                                         ÂºÂ±Â±
+Â±Â±ÃˆÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÂ¼Â±Â±
+Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±Â±
+ÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸ
 */
 User Function KMMOD2(_cMod, _nPonteiro, _cTipRet)
 Local _aArea 	:= GetArea()  
@@ -3310,7 +3316,7 @@ Local _nX
 ZT0->(dbSetOrder(1))
 ZT0->( dbSeek( xFilial("ZT0") + _cTabV + _cVerV + _cCodCLi + _cLojCli + _cTpTrans + _cIteV , .T. ) )
 If ZT0->(Eof())
-	MsgStop("Não foi possível vincular a tabela de venda.","Atenção!")
+	MsgStop("NÃ£o foi possÃ­vel vincular a tabela de venda.","AtenÃ§Ã£o!")
 	Return .F.
 Else
 	If ZT0->ZT0_KMPTRE == "S"
